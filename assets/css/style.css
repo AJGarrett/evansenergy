@@ -5567,3 +5567,8 @@ body .mfp-wrap {
 .body_style_wide .search_state_opened .search_submit  {
 	margin:0 10px 0 10px;
 }
+
+/* AJG */
+.vc_column-inner.ee-green {
+	background-color: #8bc34a;
+}
