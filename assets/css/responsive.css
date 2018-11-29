@@ -566,8 +566,8 @@ Samsung Galaxy
         width: 25%!important;
     }
 
-
-
+	.content_wrap { width: 100%; }
+	.wpb_wrapper {padding: 10px;}
 
 
 }
@@ -586,6 +586,8 @@ Samsung Galaxy
 		height: 200px !important;
 	}
 
+	.content_wrap { width: 100%; }
+	.wpb_wrapper {padding: 10px;}
 }
 
 
@@ -800,7 +802,7 @@ Samsung Galaxy
 		font-size:0.875em;
 	}
 	.top_panel_middle .logo img {
-		max-height:40px;
+		/* max-height:40px; */
 	}
 	
 	.top_panel_style_1 .contact_logo {
@@ -814,7 +816,7 @@ Samsung Galaxy
 		margin-top:1em;
 		margin-bottom:2em;
 		padding-top:0 !important;
-		width:33.3333% !important;
+		width:49.3333% !important;
 	}
 	.top_panel_style_2 .contact_field {
 		margin:1em 0;
@@ -1088,7 +1090,8 @@ Very common low res
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:290px; }
-
+	.content_wrap { width: 100%; }
+	.wpb_wrapper {padding: 10px;}
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%; float: none; }
 	.sidebar { 				 width: 100%; float:none; }
@@ -1251,7 +1254,7 @@ Very common low res
 		font-size:0.875em;
 	}
 	.top_panel_middle .logo img {
-		max-height:40px;
+		/* max-height:40px; */
 	}
     .top_panel_inner_style_1 .search_wrap {width: 100%;max-width: 100%;}
     .top_panel_bottom .search_wrap{
