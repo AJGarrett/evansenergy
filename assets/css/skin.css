@@ -288,7 +288,7 @@ textarea::-webkit-input-placeholder {
 /* 6. Page layouts
 -------------------------------------------------------------- */
 .body_style_boxed .body_wrap {
-  background: url(../wp-content/uploads/revslider/education_home_slider/blue.jpg) repeat left top scroll;
+  /* background: url(../wp-content/uploads/revslider/education_home_slider/blue.jpg) repeat left top scroll; */
 }
 .body_style_boxed .body_wrap {
   background-color: #ffffff;

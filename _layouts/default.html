@@ -22,16 +22,26 @@
 
 <a href="{{ site.baseurl }}/#" class="scroll_to_top icon-up" title="Scroll to top"></a>
 
+<script src="/assets/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-				function revslider_showDoubleJqueryError(sliderID) {
-					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
-					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
-					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
-						jQuery(sliderID).show().html(errorMessage);
-				}
-			</script>
+	(function () {
+		"use strict";
+		// Slider Revolution
+		jQuery('#revslider').revolution({
+			delay:8000,
+			startwidth:800,
+			startheight:200,
+			fullWidth:"off",
+			fullScreen:"off",
+	
+			soloArrowLeftHOffset:20,
+			soloArrowRightHOffset:20,
+			dottedOverlay:"threexthree",
+			fullScreenOffsetContainer: "#header, #gheader"
+		});
+	}());
+</script>
 
 <form id="gclp-frame-form" target="gclp-frame" method="post" style="display: none;"></form>
 

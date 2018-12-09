@@ -17,17 +17,13 @@ layout: default
         <div class="content col-md-8">
             <article class="itemscope post_item post_item_single post_featured_default post_format_standard post-1548 post type-post status-publish format-standard has-post-thumbnail hentry category-masonry category-portfolio" itemscope="" itemtype="http://schema.org/Article">			
                 <section class="post_featured">
-                    <div class="post_thumb" data-image="{{ post.featured_image }}" data-title="{{ post.title }}">
-                        <a class="hover_icon hover_icon_view inited" href="{{ post.featured_image }}" itemprop="image"></a>
+                    <div class="post_thumb" data-image="{{ page.featured_image }}" data-title="{{ page.title }}">
+                        <a class="hover_icon hover_icon_view inited" href="{{site.base_url}}/{{ page.featured_image }}" itemprop="image">
+                            <img src="{{site.base_url}}/{{page.featured_image}}" />
+                        </a>
                     </div>
                 </section>
-                <div class="post_info">
-                        <span class="post_info_item post_info_posted_by vcard" itemprop="author">by <a href="http://beta.evansenergyllc.com/author/evansenergy/" class="post_info_author">evansenergy</a></span>
-                        <span class="post_info_item post_info_posted"><a href="http://beta.evansenergyllc.com/2015/09/14/planning-your-own-solar-power-system/" class="post_info_date date updated" itemprop="datePublished" content="2015-09-14 14:30:48">September 14, 2015</a></span>
-                        <span class="post_info_item post_info_tags">in <a class="category_link" href="http://beta.evansenergyllc.com/category/masonry/">Masonry</a>, <a class="category_link" href="http://beta.evansenergyllc.com/category/portfolio/">Portfolio</a></span>
-                        <span class="post_info_item post_info_counters">	<span class="post_counters_item post_counters_views icon-eye" title="Views - 4333" href="http://beta.evansenergyllc.com/2015/09/14/planning-your-own-solar-power-system/">4333</span></span>
-                </div>
-                <section class="post_content" itemprop="articleBody"><p>Fusce et augue placerat, dictum velit sit amet, egestas urna. Cras aliquam pretium ornare. Aliquam vel finibus metus. Aenean venenatis sodales nisi, mollis iaculis leo pellentesque non. Donec vulputate leo lacus, non tempus urna euismod ut. Vivamus molestie felis massa, ac suscipit urna venenatis ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                <section class="post_content" itemprop="articleBody">
                     {{ content }}
                 </section> <!-- </section> class="post_content" itemprop="articleBody"> -->	
             </article>	<!-- /.post_item -->

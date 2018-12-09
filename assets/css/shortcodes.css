@@ -4628,7 +4628,7 @@ h2.sc_title.styling2{
     padding-bottom: 43px;
 }
 h2.sc_item_title:after, .sc_title.styling2:after{
-    background: transparent url(/wp-content/uploads/2015/08/aftertitle.png) no-repeat;
+    /* background: transparent url(/wp-content/uploads/2015/08/aftertitle.png) no-repeat; */
     content: '';
     height: 20px;
     margin: 0 auto;
@@ -4641,7 +4641,7 @@ h2.sc_item_title:after, .sc_title.styling2:after{
 h2.sc_item_title.sc_align_left:after, .sc_title.styling2.sc_align_left:after {
     left: 0;
     right: 100%;
-    background: transparent url(/wp-content/uploads/2015/08/aftertitle.png) no-repeat;
+    /* background: transparent url(/wp-content/uploads/2015/08/aftertitle.png) no-repeat; */
     content: '';
     height: 20px;
     margin: 0 auto;
