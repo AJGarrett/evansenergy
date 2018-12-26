@@ -1600,7 +1600,7 @@ label.required:after {
 .slider_boxed,
 .content_wrap,
 .content_container {
-  width: 1170px;
+  /* width: 1170px; */
   margin: 0 auto;
 }
 /*
@@ -6625,4 +6625,11 @@ body .mfp-wrap {
 .key .vc_column_container .vc_column-inner {
   padding-bottom: 20px;
   height: 250px;
+}
+.wpb_wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.post .post_content, .widget, .page_title {
+  margin: 10px !important;
 }
